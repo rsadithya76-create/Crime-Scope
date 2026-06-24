@@ -2,7 +2,7 @@
 app.py - Flask Backend for Crime Rate Prediction System
 Run with: python app.py
 """
-
+ 
 from flask import Flask, render_template, jsonify, request
 import os
 import sys
