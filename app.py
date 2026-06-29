@@ -5,7 +5,7 @@ Run with: python app.py
  
 from flask import Flask, render_template, jsonify, request
 import os
-import sys
+import sys   
 
 # Add project root to path
 sys.path.insert(0, os.path.dirname(__file__))
